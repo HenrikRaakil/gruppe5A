@@ -1,4 +1,8 @@
 # gruppe5A
+##Github, Kanban og Github pages
+
+
+
 I denne oppgaven skal dere gjennomføre og dokumentere alle stegene i utvikling av en webside. Studere spesielt slidene 21 og 22 i IS-114 Prosjekt og Git_Github.pptx last ned
 
 Del 1, 2 og 3 gjelder designskisser som dere må gjøre for hånd og skal ikke involvere kode. Dere kan bruke elektronisk tegneverktøy, hvis dere ønsker, eller tegne på papir/tavle og ta et bilde av tegningene). Del 4 gjelder en reel implementering av design fra de forrige deloppgavene. 
@@ -26,3 +30,6 @@ Dere kan legge Leveranse 2 inn i dokumentet som hører til Leveranse 1, dvs. der
  
 
 I neste omgang (neste uke) kan vi ta med hvordan lage grener (branch) i Git og øve oss på Pull Requests. 
+
+
+
