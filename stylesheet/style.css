@@ -1,45 +1,48 @@
-body {
+* {
+    padding: 0;
+    margin : 0;
 
 }
 
 h1 {
-    text-align: center; /*midtstiller teksten*/
+    text-align: center;
+    /*midtstiller teksten*/
 }
 
 .flexbox {
-    display: flex;
-    flex-wrap: wrap;
-   /* justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
-    align-items: center;
+    display           : flex;
+    flex-wrap         : wrap;
+    /* justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
+
 }
 
-.flexbox > div {
-    width: 25%; /*bredde på alle divtaggene innenfor flexbox*/
-    height:250px; /*høyde på alle divtaggene innenfor flexbox*/
-    margin: 50px;/*ramme utenpå visittkortet*/
-    padding: 20px; /*"plass" mellom innhold og kant*/
-    display: grid;
-    grid-template-columns: auto  auto;
+.flexbox>div {
+    width                : 25%;
+    /*bredde på alle divtaggene innenfor flexbox*/
+    height               : 250px;
+    /*høyde på alle divtaggene innenfor flexbox*/
+    margin               : 50px;
+    /*ramme utenpå visittkortet*/
+    padding              : 20px;
+    /*"plass" mellom innhold og kant*/
+    display              : grid;
+    grid-template-columns: auto auto;
 }
 
 img {
-    height: 150px; /*høyden til bildet*/
+    height     : 150px;
+    /*høyden til bildet*/
     padding-top: 20px;
 }
 
-.text-position {
-
-}
+.text-position {}
 
 
 #sandra {
-    background-color: #cda6f7; /*bakgrunnsfarge for spesifikk id*/
+    background-color: #cda6f7;
+    /*bakgrunnsfarge for spesifikk id*/
 }
 
 #emilie {
     background-color: lightskyblue;
 }
-
-
-
-
