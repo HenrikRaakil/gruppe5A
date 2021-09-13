@@ -12,6 +12,8 @@ h1 {
 .flexbox {
     display           : flex;
     flex-wrap         : wrap;
+    height            : 100vh;
+    width             : 100%;
     /* justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
 
 }
@@ -34,8 +36,6 @@ img {
     /*høyden til bildet*/
     padding-top: 20px;
 }
-
-.text-position {}
 
 
 #sandra {
