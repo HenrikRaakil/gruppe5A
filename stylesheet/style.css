@@ -1,3 +1,7 @@
+html {
+
+}
+
 
 h1 {
     text-align: center;
@@ -7,9 +11,10 @@ h1 {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
+    justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
 
 }
+
 
 .flexbox>div {
     display: flex;
@@ -26,8 +31,9 @@ h1 {
 
 img {
     height: 150px;
-    /*høyden til bildet*/
-    padding-top: 20px;
+    width: 150px;
+    /*høyden og bredden til bildet*/
+    padding-top: 45px;
 }
 
 .text-position {
