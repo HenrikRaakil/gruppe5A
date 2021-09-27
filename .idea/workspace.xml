@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1y5DopUGGJ4rzWw2hMS4BKKGPD3" />
   <component name="ProjectViewState">
@@ -33,6 +34,7 @@
       <updated>1631532736261</updated>
       <workItem from="1631532739508" duration="354000" />
       <workItem from="1631885902033" duration="8000" />
+      <workItem from="1632741753650" duration="848000" />
     </task>
     <servers />
   </component>
