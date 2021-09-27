@@ -1,7 +1,7 @@
-html {
-
+*{
+    padding: 0;
+    padding: 0;
 }
-
 
 h1 {
     text-align: center;
@@ -23,7 +23,7 @@ h1 {
     /*bredde på alle divtaggene innenfor flexbox*/
     min-height: 250px;
     /*høyde på alle divtaggene innenfor flexbox*/
-    margin: 50px;
+    margin: 30px;
     /*ramme utenpå visittkortet*/
     padding: 20px;
     /*"plass" mellom innhold og kant*/
@@ -62,7 +62,7 @@ img {
 
 
 #clifford {
-    background-color: darkcyan;
+    background-color: hotpink;
     /*bakgrunnsfarge for spesifikk id*/
 }
 
