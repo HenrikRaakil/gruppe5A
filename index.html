@@ -8,14 +8,14 @@
     <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
       <style>
           html{
-              padding: 0;
-              padding: 0;
+              padding: 0;                      /* Trenger vi denne? */
+              margin: 0;                       /* Trenger vi denne? */
               background-color: cadetblue;
-              display: flex;
           }
 
           /* Overskrift */
           h1.overskrift-index {
+              cursor: default;
               font-family: arial;
               text-align: center;
               font-size: 72px;
@@ -42,16 +42,24 @@
               /*ramme utenpå visittkortet*/
               padding: 20px;
               /*"plass" mellom innhold og kant*/
+              border-radius: 20px;
           }
 
+          /* Visittkort innhold */
           img {
-              height: 150px;
               width: 150px;
               padding-top: 45px;
           }
 
           .text-position {
               padding-left: 5%;
+              font-family: Arial;
+              cursor: default;
+          }
+
+          h2, p {
+              font-family: Arial;
+              cursor: default;
           }
 
           /* Visittkort farge*/
@@ -63,7 +71,11 @@
           #sarah    {background-color: #a3c9a8;}
 
           /* Linker */
-          a {text-decoration: none; color: black;}
+          a { text-decoration: none;
+
+              color: black;
+              transition: all 0.3s ease 0s;
+          }
           a:hover{color:blue;}
       </style>
   </head >
