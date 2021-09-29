@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="fjerne link font">
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="fjerne link font og svart farge">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
       <workItem from="1631885902033" duration="8000" />
       <workItem from="1632741753650" duration="1223000" />
       <workItem from="1632743119661" duration="635000" />
-      <workItem from="1632912453030" duration="143000" />
+      <workItem from="1632912453030" duration="251000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -50,7 +50,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632912527946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fjerne link font og svart farge">
+      <created>1632912615316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632912615316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="endret fin farge" />
     <MESSAGE value="fjerne link font" />
-    <option name="LAST_COMMIT_MESSAGE" value="fjerne link font" />
+    <MESSAGE value="fjerne link font og svart farge" />
+    <option name="LAST_COMMIT_MESSAGE" value="fjerne link font og svart farge" />
   </component>
 </project>
