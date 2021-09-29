@@ -7,26 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
       <style>
-          *{
+          html{
               padding: 0;
               padding: 0;
+              background-color: cadetblue;
+              display: flex;
           }
 
-          h1 {
+          /* Overskrift */
+          h1.overskrift-index {
               font-family: arial;
               text-align: center;
               font-size: 72px;
-              background: linear-gradient(cyan, turquoise, limegreen, transparent);
+              background: linear-gradient(yellow, yellow, greenyellow, transparent);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
-              /*midtstiller teksten */
           }
 
+          /* Visittkort oppsett */
           .flexbox {
               display: flex;
               flex-wrap: wrap;
               justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
-
           }
 
           .flexbox>div {
@@ -45,57 +47,35 @@
           img {
               height: 150px;
               width: 150px;
-              /*høyden og bredden til bildet*/
               padding-top: 45px;
           }
-
 
           .text-position {
               padding-left: 5%;
           }
 
+          /* Visittkort farge*/
+          #sandra   {background-color: #ffd333;/}
+          #emilie   {background-color: lightskyblue;}
+          #henrik   {background-color: #CF9FFF}
+          #sander   {background-color: coral;}
+          #clifford {background-color: hotpink;}
+          #sarah    {background-color: #a3c9a8;}
 
-          #sandra {
-              background-color: #ffd333;
-              /*bakgrunnsfarge for spesifikk id*/
-          }
-
-          #emilie {
-              background-color: lightskyblue;
-          }
-
-          #henrik {
-              background-color: mediumpurple;
-          }
-
-          #sander {
-              background-color: coral;
-              /*bakgrunnsfarge for spesifikk id*/
-          }
-
-
-          #clifford {
-              background-color: hotpink;
-              /*bakgrunnsfarge for spesifikk id*/
-          }
-
-          #sarah {
-              background-color: #a3c9a8;
-          }
-          a {
-              text-decoration: none;
-              color: black;
-          }
-          a:hover{
-              color:blue;
-          }
-
+          /* Linker */
+          a {text-decoration: none; color: black;}
+          a:hover{color:blue;}
       </style>
   </head >
 
   <body>
-    <h1>Gruppe 5A</h1>
+  <!-- Navbar -->
+  <!-- [Placeholder] -->
 
+  <!-- Overskrift -->
+    <h1 class="overskrift-index">Gruppe 5A</h1>
+
+    <!-- Visittkort -->
     <div class="flexbox">
 
       <div id="sandra">
@@ -129,7 +109,7 @@
             <img src="images/henrik.jpg" alt="bilde av Henrik">
           </div>
           <div class="text-position">
-            <h2>Lars Henrik Bjørck <br> Råkil</h2>
+            <h2>Lars Henrik<br>Bjørck Råkil</h2>
             <p><i class="fas fa-house-user"></i> Sarpsborg </p>
             <p><i class="fas fa-birthday-cake"></i> 2001</p>
             <p><i class="far fa-envelope"></i> lhraakil@uia.no </p>
@@ -175,8 +155,6 @@
               <p><i class="fab fa-github"></i><a href="https://github.com/SarahAdina" target="_blank"> SarahAdina</a></p>
             </div>
       </div>
-
     </div>
-
   </body>
 </html>
