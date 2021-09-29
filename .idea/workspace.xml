@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="fjerne link font og svart farge" />
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +12,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1y5DopUGGJ4rzWw2hMS4BKKGPD3" />
   <component name="ProjectViewState">
@@ -20,6 +22,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test/stylesheets/navbar.css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Henrik\repos\gruppe5A\images" />
+      <recent name="C:\Users\Henrik\repos\gruppe5A\kanban" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,6 +43,8 @@
       <workItem from="1632741753650" duration="1223000" />
       <workItem from="1632743119661" duration="635000" />
       <workItem from="1632912453030" duration="277000" />
+      <workItem from="1632918369710" duration="53000" />
+      <workItem from="1632919932160" duration="4842000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -62,7 +73,67 @@
       <option name="project" value="LOCAL" />
       <updated>1632912723143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Forandret på tittelen">
+      <created>1632913922386</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1632913922386</updated>
+    </task>
+    <task id="LOCAL−00006" summary="La til kanban mappen">
+      <created>1632920003484</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1632920003484</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt">
+      <created>1632925387135</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1632925387135</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632926912592</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1632926912592</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632927092813</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1632927092813</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632927176365</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1632927176365</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632927321929</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1632927321929</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632927331532</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1632927331532</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Tester font">
+      <created>1632927449975</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1632927449975</updated>
+    </task>
+    <task id="LOCAL−00014" summary="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
+      <created>1632927849580</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1632927849580</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +167,12 @@
     <MESSAGE value="endret fin farge" />
     <MESSAGE value="fjerne link font" />
     <MESSAGE value="fjerne link font og svart farge" />
-    <option name="LAST_COMMIT_MESSAGE" value="fjerne link font og svart farge" />
+    <MESSAGE value="Forandret på tittelen" />
+    <MESSAGE value="La til kanban mappen" />
+    <MESSAGE value="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt" />
+    <MESSAGE value="Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. Fikset navnet mitt. Fjernet unødvendig kode. Gjorde små design endringer, feedback neste gang vi driver med IS-114" />
+    <MESSAGE value="Tester font" />
+    <MESSAGE value="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114" />
   </component>
 </project>
