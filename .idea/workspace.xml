@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1y5DopUGGJ4rzWw2hMS4BKKGPD3" />
   <component name="ProjectViewState">
