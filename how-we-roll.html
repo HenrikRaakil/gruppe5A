@@ -27,11 +27,11 @@
 <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
 <hr>
 <form>
-  <p><label for="data01">Data inn felt #1</label>
-    <input type="text" name="data01" id="data01" /></p>
+  <p><label for="data01">Navn</label>
+    <input type="text" name="navn" id="navn" /></p>
 
-  <p><label for="data02">Data inn felt #2</label>
-    <input type="text" name="data02" id="data02" /></p>
+  <p><label for="data02">Farge</label>
+    <input onchange="velgFarge(this)" type="color" name="farge" id="farge"/></p>
 
   <p>HowWeRoll-parametre:</p>
 
@@ -48,6 +48,49 @@
     <input type="range" id="cora" name="cora" value="50">
     <label for="cora">Gå for seg selv og tenke</label>
   </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="ford">Trenger en forklaring</label>
+    <input type="range" id="ford" name="ford" value="50">
+    <label for="ford">Direkte på sak</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="sorv">Trenger å snakke om det</label>
+    <input type="range" id="sorv" name="sorv" value="50">
+    <label for="sorv">Vil gå videre</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="sort">Snakke</label>
+    <input type="range" id="sort" name="sort" value="50">
+    <label for="sort">Tenke</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="sora">Planlegge tid til å snakke</label>
+    <input type="range" id="sora" name="cora" value="50">
+    <label for="cora">Avbryt når du trenger meg</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="vort">Video chat</label>
+    <input type="range" id="vort" name="cora" value="50">
+    <label for="vort">Tekst</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="torn">09-17</label>
+    <input type="range" id="torn" name="cora" value="50">
+    <label for="torn">Når som helst</label>
+  </p>
+
 
   <p>
     <label>Hvor mange fortetrekker du å jobbe med?:
@@ -70,6 +113,11 @@
 </div>
 
 <script>
+
+  function velgFarge (element) {
+    document.body.style = element.value
+  }
+
   // Example POST method implementation using fetch:
   async function postData(url = '', data = {}) {
     // Default options are marked with *
