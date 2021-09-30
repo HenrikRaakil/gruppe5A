@@ -7,7 +7,25 @@
   <title>HowWeRoll prototype (lagring)</title>
   <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
   <style>
-    /* Her kan stil defineres (vi skal bruke Cascading Style Sheets) */
+    html{
+      padding: 0;                      /* Trenger vi denne? */
+      margin: 0;                       /* Trenger vi denne? */
+      background-color: cadetblue;
+    }
+
+    /* Overskrift */
+    h1.overskrift-index {
+      cursor: default;
+      font-family: arial;
+      text-align: center;
+      font-size: 72px;
+      background: linear-gradient(yellow, yellow, greenyellow, transparent);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+
+
   </style>
   
   <!--
@@ -25,7 +43,9 @@
 <body>
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
 <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
-<hr>
+
+<h1 class="overskrift-index">Kartlegging av gruppemedlemmer </h1>
+
 <form>
   <p><label for="data01">Navn</label>
     <input type="text" name="navn" id="navn" /></p>
@@ -38,7 +58,7 @@
   <p>
     <!-- dorn - day or night -->
     <label for="dorn">Morgenfugl</label>
-    <input type="range" id="dorn" name="dorn" value="50">
+    <input type="range" id="dorn" name="dorn" value="50" >
     <label for="dorn">Nattugle</label>
   </p>
 
@@ -89,6 +109,13 @@
     <label for="torn">09-17</label>
     <input type="range" id="torn" name="cora" value="50">
     <label for="torn">Når som helst</label>
+  </p>
+
+  <p>
+    <!-- cora - cooperate or alone -->
+    <label for="lora">Ledertype</label>
+    <input type="range" id="torn" name="lora" value="50">
+    <label for="lora">Arbeidertype</label>
   </p>
 
 
