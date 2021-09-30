@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="endret fin farge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="startet på navbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +45,7 @@
       <workItem from="1632919932160" duration="4842000" />
       <workItem from="1632937162066" duration="865000" />
       <workItem from="1632953481942" duration="757000" />
-      <workItem from="1633006957802" duration="3300000" />
+      <workItem from="1633006957802" duration="3616000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -143,7 +140,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1632933636725</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="startet på navbar">
+      <created>1633010456510</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1633010456510</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +187,7 @@
     <MESSAGE value="Tester font" />
     <MESSAGE value="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114" />
     <MESSAGE value="endret verdier i drop-down meny" />
-    <option name="LAST_COMMIT_MESSAGE" value="endret verdier i drop-down meny" />
+    <MESSAGE value="startet på navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="startet på navbar" />
   </component>
 </project>
