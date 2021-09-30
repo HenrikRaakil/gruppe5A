@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
       <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
           html{
               background-color: cadetblue;
           }
@@ -21,7 +23,7 @@
               font-family: arial;
               text-align: center;
               font-size: 72px;
-              background: linear-gradient(purple, limegreen, orange, lightcoral);
+              background: linear-gradient(yellow, orange);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
           }
@@ -88,10 +90,25 @@
              list-style: none;
               margin: 0;
               box-sizing: border-box;
+              display: flex;
+              padding: 2rem;
           }
 
           .navbar {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px;
               background-color: darkslategray;
+          }
+
+          li {
+            padding: 0 3rem 0 3rem;
+          }
+
+          .navbar-a{
+              color: white;
+              font-family: "Montserrat", sans-serif;
           }
       </style>
   </head >
@@ -100,10 +117,10 @@
   <header>
       <nav class="navbar">
           <ul class="navbarliste">
-              <li><a href="index.html">Forside</a></li>
-              <li><a href="how-we-roll.html">How We Roll</a></li>
-              <li><a href="hwr-report.html">HWR report</a></li>
-              <li><a href="#">To be determined</a></li>
+              <li><a class="navbar-a" href="index.html">Forside</a></li>
+              <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
+              <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
+              <li><a class="navbar-a" href="#">To be determined</a></li>
           </ul>
       </nav>
   </header>
@@ -175,7 +192,7 @@
               <p><i class="fas fa-house-user"></i> Oslo </p>
               <p><i class="fas fa-birthday-cake"></i> 2001</p>
               <p><i class="far fa-envelope"></i> cliffordv@uia.no</p>
-              <p><i class="fab fa-github"></i <a href="https://github.com/cliffyxv" target="_blank"> cliffyxv</a></p>
+              <p><i class="fab fa-github"></i><a href="https://github.com/cliffyxv" target="_blank"> cliffyxv</a></p>
             </div>
       </div>
 
