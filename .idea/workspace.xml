@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="">
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="La til navbar på alle sider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hwr-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/hwr-report.html" afterDir="false" />
@@ -51,7 +51,7 @@
       <workItem from="1632953481942" duration="757000" />
       <workItem from="1633006957802" duration="4715000" />
       <workItem from="1633011707399" duration="1000000" />
-      <workItem from="1633080617689" duration="432000" />
+      <workItem from="1633080617689" duration="871000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -164,7 +164,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1633011356243</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="La til navbar på alle sider">
+      <created>1633081068864</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1633081068864</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
     <MESSAGE value="1. Endret &quot;*&quot; i CSS til &quot;html&quot; dette fikser problemer med bakgrunnen. 2. Forandret på oppsettet i CSS, noe som gjør det mer lesbart. 3. Forandret font, størrelse og formatering i tekst. 4. Fjernet unødvendig kode. 5. Gjorde små design endringer, feedback neste gang vi driver med IS-114" />
     <MESSAGE value="endret verdier i drop-down meny" />
     <MESSAGE value="startet på navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="startet på navbar" />
+    <MESSAGE value="La til navbar på alle sider" />
+    <option name="LAST_COMMIT_MESSAGE" value="La til navbar på alle sider" />
   </component>
 </project>
