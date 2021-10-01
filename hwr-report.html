@@ -6,9 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TITTEL</title>
     <style>
-     <!-- Her kan stil defineres (vi skal bruke Cascading Style Sheets) -->
+        /* Navbar */
+        a { text-decoration: none;
+            color: black;
+            transition: all 0.3s ease 0s;
+        }
+        a:hover{color:blue;}
+
+        .navbarliste {
+            list-style: none;
+            margin: 0;
+            box-sizing: border-box;
+            display: flex;
+            padding: 2rem;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: darkslategray;
+        }
+
+        li {
+            padding: 0 3rem 0 3rem;
+        }
+
+        .navbar-a{
+            color: white;
+            font-family: "Montserrat", sans-serif;
+        }
     </style>
- <!--
+    <header>
+        <nav class="navbar">
+            <ul class="navbarliste">
+                <li><a class="navbar-a" href="index.html">Forside</a></li>
+                <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
+                <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
+                <li><a class="navbar-a" href="#">To be determined</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--
 
     [[[[[[[[     [[[[[[[[        [[[[   [[[[   [[[[  [[[[
     [::::::[    [::[             [::[   [::[   [::[  [::[

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="startet på navbar">
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwr-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/hwr-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
       <workItem from="1632953481942" duration="757000" />
       <workItem from="1633006957802" duration="4715000" />
       <workItem from="1633011707399" duration="1000000" />
+      <workItem from="1633080617689" duration="432000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
