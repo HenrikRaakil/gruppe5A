@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="plis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HWR-GRUPPE5A.md" beforeDir="false" afterPath="$PROJECT_DIR$/HWR-GRUPPE5A.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hwr-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/hwr-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
       <workItem from="1633080617689" duration="1003000" />
       <workItem from="1633082448737" duration="319000" />
       <workItem from="1633342866530" duration="760000" />
+      <workItem from="1633345315184" duration="949000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>

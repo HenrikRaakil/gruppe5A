@@ -15,5 +15,11 @@ og vi kunne diskutere og finneløsninger sammen. På denne måten kunne vi lære
 og hadde flere øyne til å finne eventuelle feil. Senere, ville det være lurt å dele opp <br>
 i mindre grupper for å lage resten av vår "nettside". (skal oppdateres)
 
+Når vi startet prosjektet begynte vi først med at kun 1-2 stykker kunne pushe og committe kode.<br>
+Etterhvert ble alle litt mer selvstendige og ble enige om at alle kan endre kode og pushe til main<br> 
+hvis man oppdaterte koden før man begynte å gjøre noe selv. 
+
+
+
 
 
