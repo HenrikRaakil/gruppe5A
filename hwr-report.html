@@ -71,10 +71,8 @@
 </head>
 <body>
 
-    <div id="svar">
-
-
-    </div>
+    <div id="svar1"></div>
+    <div id="svar2"></div>
 
 <canvas id="report" height=1000 width="1000">
 
@@ -93,7 +91,7 @@
           .then(data => {
               console.log(data);
               //document.querySelector("#debug").innerText += data.navn + " " ;//+ "farge: " + data.farge;
-              document.querySelector("#svar").innerText += data.navn + " prefers to work with " + data.numb + " person/people." ;
+              document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
 
               context.font = '14px serif';
               context.fillText('dorn', 30, 24);
@@ -239,6 +237,7 @@
               context.stroke();
 
 
+
           });
 
       fetch("https://bacit.info/hwr/20211005114935-efc77f762e7dfd563e585f16b4ea84f4.json", {cache: 'no-cache'})
@@ -246,7 +245,7 @@
           .then(data => {
               console.log(data);
               //document.querySelector("#debug").innerText += data.navn + " "; // + "farge: " + data.farge;
-              document.querySelector("#svar").innerText += data.navn + " prefers to work with " + data.numb + " person/people." ;
+              document.querySelector("#svar2").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
               var X = 70 + parseInt(data.dorn, 10);
               var Y = 20;
