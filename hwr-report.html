@@ -47,15 +47,21 @@
             font-family: "Montserrat", sans-serif;
         }
 
-        #ola {
-            color: #b2e1b7;
+        /* Overskrift */
+        h1.overskrift-index {
+            cursor: default;
+            font-family: arial;
+            text-align: center;
+            font-size: 72px;
+            background: linear-gradient(yellow, yellow, greenyellow, transparent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        #kari {
-            color: #0b6f4e;
-        }
 
     </style>
+
+</head>
     <header>
         <nav class="navbar">
             <ul class="navbarliste">
@@ -68,7 +74,9 @@
     </header>
 
 
-</head>
+<h1 class="overskrift-index">Kartlegging av gruppemedlemmer </h1>
+
+
 <body>
 
     <div id="svar1"></div>
@@ -90,7 +98,6 @@
           .then(response => response.json())
           .then(data => {
               console.log(data);
-              //document.querySelector("#debug").innerText += data.navn + " " ;//+ "farge: " + data.farge;
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
 
               context.font = '14px serif';
@@ -244,7 +251,6 @@
           .then(response => response.json())
           .then(data => {
               console.log(data);
-              //document.querySelector("#debug").innerText += data.navn + " "; // + "farge: " + data.farge;
               document.querySelector("#svar2").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
               var X = 70 + parseInt(data.dorn, 10);
@@ -348,18 +354,6 @@
               context.stroke();
 
           });
-
-
-
-   /*   fetch('https://bacit.info/hwr/20210930134755-60cace86f41938c92cdfe52577aa8383.json')
-    .then(response => response.json())
-    .then(data => console.log(data))*/
-
-
-    /*fetch('https://bacit.info/hwr/20210930134839-3e95978154fccdd8b61df16d4e0f1148.json')
-    .then(response => response.json())
-    .then(data => console.log(data))*/
-
 
   </script>
 </body>
