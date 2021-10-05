@@ -177,7 +177,7 @@
 </form>
 
 <div class="results">
-  <h2 style="text-align: center">Form Data</h2>
+ <!-- <h2 style="text-align: center">Form Data</h2>-->
   <pre></pre>
 </div>
 
@@ -213,7 +213,8 @@
     const results = document.querySelector('.results pre');
     postData('https://bacit.info/', formJSON)
             .then(data => {
-              results.innerText = JSON.stringify(data, null, 2);
+              //results.innerText = JSON.stringify(data, null, 2);
+              console.log (data, null, 2);
             });
   }
   const form = document.querySelector('form');
