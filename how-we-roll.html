@@ -58,6 +58,15 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
+    .HWR-button {
+      background-color: #29ff48;
+      font-size: 16px;
+      color: black;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+    }
   </style>
   
   <!--
@@ -173,7 +182,7 @@
     </label>
   </p>
 
-  <button type="submit">Gjør noe</button>
+  <button type="submit" class="HWR-button">Gjør noe</button>
 </form>
 
 <div class="results">
@@ -221,7 +230,6 @@
   }
   const form = document.querySelector('form');
   form.addEventListener('submit', handleSubmit);
-
 
 
 </script>
