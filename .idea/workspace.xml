@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="">
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="Forandring av tittel i How-we-roll.html fra How we roll protoype (lagring) til How we roll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HWR-GRUPPE5A.md" beforeDir="false" afterPath="$PROJECT_DIR$/HWR-GRUPPE5A.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1y5DopUGGJ4rzWw2hMS4BKKGPD3" />
@@ -55,6 +56,7 @@
       <workItem from="1633342866530" duration="760000" />
       <workItem from="1633345315184" duration="2081000" />
       <workItem from="1633421717460" duration="2122000" />
+      <workItem from="1633509718760" duration="388000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -230,6 +232,7 @@
     <MESSAGE value="La til navbar på alle sider" />
     <MESSAGE value="Sentrerte javascript formen" />
     <MESSAGE value="skrev litt om regler for repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="skrev litt om regler for repository" />
+    <MESSAGE value="Forandring av tittel i How-we-roll.html fra How we roll protoype (lagring) til How we roll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forandring av tittel i How-we-roll.html fra How we roll protoype (lagring) til How we roll" />
   </component>
 </project>
