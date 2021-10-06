@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="plis">
+    <list default="true" id="9378fbfa-78b4-465d-9d57-8aa48f675b60" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HWR-GRUPPE5A.md" beforeDir="false" afterPath="$PROJECT_DIR$/HWR-GRUPPE5A.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,8 @@
       <workItem from="1633080617689" duration="1003000" />
       <workItem from="1633082448737" duration="319000" />
       <workItem from="1633342866530" duration="760000" />
-      <workItem from="1633345315184" duration="949000" />
+      <workItem from="1633345315184" duration="2081000" />
+      <workItem from="1633421717460" duration="2122000" />
     </task>
     <task id="LOCAL−00001" summary="endret fin farge">
       <created>1632742653007</created>
@@ -179,7 +179,13 @@
       <option name="presentableId" value="LOCAL−00020" />
       <updated>1633081517749</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL−00021" summary="skrev litt om regler for repository">
+      <created>1633346640023</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1633346640023</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +229,7 @@
     <MESSAGE value="startet på navbar" />
     <MESSAGE value="La til navbar på alle sider" />
     <MESSAGE value="Sentrerte javascript formen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sentrerte javascript formen" />
+    <MESSAGE value="skrev litt om regler for repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="skrev litt om regler for repository" />
   </component>
 </project>
