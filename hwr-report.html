@@ -101,7 +101,7 @@
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
 
               context.font = '14px serif';
-              context.fillText('dorn', 30, 24);
+              context.fillText('dorn',30, 24);
               context.fillText('cora', 30, 74);
               context.fillText('ford', 30, 124);
               context.fillText('sorv', 30, 174);
@@ -113,131 +113,132 @@
 
               context.beginPath();
               context.moveTo(70,20);
-              context.lineTo(170,20);
+              context.lineTo(270,20);
 
               //context.beginPath();
               context.moveTo(70,70);
-              context.lineTo(170,70);
+              context.lineTo(270,70);
 
               context.moveTo(70,120);
-              context.lineTo(170,120);
+              context.lineTo(270,120);
 
               context.moveTo(70,170);
-              context.lineTo(170,170);
+              context.lineTo(270,170);
 
               context.moveTo(70,220);
-              context.lineTo(170,220);
+              context.lineTo(270,220);
 
               context.moveTo(70,270);
-              context.lineTo(170,270);
+              context.lineTo(270,270);
 
               context.moveTo(70,320);
-              context.lineTo(170,320);
+              context.lineTo(270,320);
 
               context.moveTo(70,370);
-              context.lineTo(170,370);
+              context.lineTo(270,370);
 
               context.moveTo(70,420);
-              context.lineTo(170,420);
+              context.lineTo(270,420);
 
               context.stroke();
 
 
-              var X = 70 + parseInt(data.dorn, 10);
+              var X = 70 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(data.cora, 10);
+              var X = 70 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.ford, 10);
+              var X = 70 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
+              //context.fillStyle = "lightgreen";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sorv, 10);
+              var X = 70 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sort, 10);
+              var X = 70 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sora, 10);
+              var X = 70 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.vort, 10);
+              var X = 70 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.torn, 10);
+              var X = 70 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.lora, 10);
+              var X = 70 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "lightgreen";
+              context.fillStyle = '#a05454';
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
@@ -253,101 +254,101 @@
               console.log(data);
               document.querySelector("#svar2").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(data.dorn, 10);
+              var X = 70 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(data.cora, 10);
+              var X = 70 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.ford, 10);
+              var X = 70 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sorv, 10);
+              var X = 70 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sort, 10);
+              var X = 70 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.sora, 10);
+              var X = 70 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.vort, 10);
+              var X = 70 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.torn, 10);
+              var X = 70 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(data.lora, 10);
+              var X = 70 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = "red";
+              context.fillStyle = "#000000";
               context.fill();
               context.lineWidth = 1;
               context.strokeStyle = "black";
