@@ -8,23 +8,27 @@
     <title>HWR report</title>
     <style>
         html{
-            background-color: cadetblue;
+            background-color: cadetblue; /*bakgrunnsfarge*/
         }
 
         body{
             margin: 0;
-            text-align: center;
+            text-align: center; /*midtsiller teksten*/
         }
 
-        a { text-decoration: none;
+        a {
+            text-decoration: none;
             color: black;
             transition: all 0.3s ease 0s;
         }
-        a:hover{color:magenta;}
+
+        a:hover{
+            color:magenta;
+        }
 
         /* Navbar */
         .navbarliste {
-            list-style: none;
+            list-style: none; /*tar bort listetegnene*/
             margin: 0;
             box-sizing: border-box;
             display: flex;
@@ -89,15 +93,13 @@
             padding: 5px;
         }
 
-
-
     </style>
 
 </head>
     <header>
-        <nav class="navbar">
+        <nav class="navbar"> <!--lager en vavigasjonsbar-->
             <ul class="navbarliste">
-                <li><a class="navbar-a" href="index.html">Forside</a></li>
+                <li><a class="navbar-a" href="index.html">Forside</a></li> <!--lenker til andre sider, åpner i samme fane-->
                 <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
                 <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
                 <li><a class="navbar-a" href="IS-104.html">IS-104</a></li>
@@ -111,7 +113,7 @@
 
 <body>
 
-    <div id="svar1" class="svartekst"></div>
+    <div id="svar1" class="svartekst"></div> <!-- her havner teksten fra innerText i script-->
     <div id="svar2" class="svartekst"></div>
     <div id="svar3"class="svartekst"></div>
     <div id="svar4"class="svartekst"></div>
@@ -120,7 +122,7 @@
 
 <canvas id="report" height=500 width=600>
 
-</canvas>
+</canvas> <!--alt med context havner her-->
 
 
   <script>
@@ -133,11 +135,12 @@
       fetch("https://bacit.info/hwr/20211006082413-f7f6d6891495d094537f2e20aa11706a.json", {cache: 'no-cache'})
           .then(response => response.json())
           .then(data => {
-              console.log(data);
+              console.log(data); /*dataene i consollen*/
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
+              /*innerText havner i div-elementet med id svar1*/
 
-              context.font = '14px serif';
-              context.fillText('Morgenfugl',120, 24);
+              context.font = '14px serif'; /*font og skriftsstørrelse*/
+              context.fillText('Morgenfugl',120, 24); /*tekst og definerer hvor på i canvas-elementet den skal vises*/
               context.fillText('Nattugle', 410, 24);
               context.fillText('Jobb med det sammen', 60, 74);
               context.fillText('Gå for seg selv og tenke', 410, 74);
@@ -158,7 +161,7 @@
 
               context.beginPath();
               context.moveTo(200,20);
-              context.lineTo(400,20);
+              context.lineTo(400,20); /*linje fra og til */
 
               //context.beginPath();
               context.moveTo(200,70);
@@ -188,16 +191,16 @@
               context.stroke();
 
 
-              var X = 200 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10); /*ganger med to fordi linjen er dobbelt på lang som den originale koden*/
               var Y = 20;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = '#ffe11f';
+              context.fillStyle = '#ffe11f'; /*farge som personen selv har valgt, prikkene*/
               context.fill();
               context.lineWidth = 1;
-              context.strokeStyle = "black";
-              context.stroke();
+              context.strokeStyle = "black"; /*svart outline*/
+              context.stroke(); /*avslutter "tegningen"*/
               //context.closePath();
 
               var X = 200 + parseInt(2*data.cora, 10);
