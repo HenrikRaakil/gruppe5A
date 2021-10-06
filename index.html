@@ -9,22 +9,24 @@
     <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
       <style>
           html{
-              background-color: cadetblue;
+              background-color: cadetblue; /*bakgrunnsfarge*/
           }
 
           body{
               margin:0;
           }
 
-          a { text-decoration: none;
+          a {
+              text-decoration: none;
               color: black;
               transition: all 0.3s ease 0s;
           }
+
           a:hover{color:magenta;}
 
           /* Navbar */
           .navbarliste {
-              list-style: none;
+              list-style: none; /*tar bort listetegnene*/
               margin: 0;
               box-sizing: border-box;
               display: flex;
@@ -82,7 +84,7 @@
 
           /* Visittkort innhold */
           img {
-              width: 150px;
+              width: 150px; /*bredde på bildene*/
               padding-top: 45px;
           }
 
@@ -113,9 +115,9 @@
 
   <body>
   <header>
-      <nav class="navbar">
+      <nav class="navbar"> <!--lager en navigasjonsbar-->
           <ul class="navbarliste">
-              <li><a class="navbar-a" href="index.html">Forside</a></li>
+              <li><a class="navbar-a" href="index.html">Forside</a></li> <!--lenker til andre sider, åpner i samme fane-->
               <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
               <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
               <li><a class="navbar-a" href="IS-104.html">IS-104</a></li>
@@ -129,20 +131,20 @@
     <!-- Visittkort -->
     <div class="flexbox">
 
-      <div id="sandra">
+      <div id="sandra"> <!-- første visittkort   -->
         <div class="text-position">
-          <img src="images/sandra.jpg" alt="bilde av Sandra">
+          <img src="images/sandra.jpg" alt="bilde av Sandra"> <!-- legger til bilde med alternativ tekst -->
         </div>
         <div class="text-position">
             <h2>Sandra<br>Høyland</h2>
-            <p><i class="fas fa-house-user"></i> Kristiansand </p>
+            <p><i class="fas fa-house-user"></i> Kristiansand </p> <!--legger til ikoner-->
             <p><i class="fas fa-birthday-cake"></i> 2002 </p>
             <p><i class="far fa-envelope"></i> sandrah@uia.no </p>
-            <p> <i class="fab fa-github"></i> <a href="https://github.com/sanhoy" target="_blank"> sanhoy</a></p>
+            <p> <i class="fab fa-github"></i> <a href="https://github.com/sanhoy" target="_blank"> sanhoy</a></p> <!-- lenke som åpner i en ny fane-->
         </div>
       </div>
 
-      <div id="emilie">
+      <div id="emilie"> <!-- andre visittkort   -->
         <div class="text-position">
           <img src="images/emilie.png" alt="bilde av Emilie">
         </div>
@@ -155,7 +157,7 @@
         </div>
       </div>
 
-      <div id="henrik">
+      <div id="henrik"> <!-- tredje visittkort   -->
           <div class="text-position">
             <img src="images/henrik.jpg" alt="bilde av Henrik">
           </div>
