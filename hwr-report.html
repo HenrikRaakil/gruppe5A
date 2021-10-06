@@ -113,7 +113,7 @@
     <div id="svar5"></div>
     <div id="svar6"></div>
 
-<canvas id="report" height=500 width=300>
+<canvas id="report" height=500 width=600>
 
 </canvas>
 
@@ -132,49 +132,58 @@
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
 
               context.font = '14px serif';
-              context.fillText('dorn',30, 24);
-              context.fillText('cora', 30, 74);
-              context.fillText('ford', 30, 124);
-              context.fillText('sorv', 30, 174);
-              context.fillText('sort', 30, 224);
-              context.fillText('sora', 30, 274);
-              context.fillText('vort', 30, 324);
-              context.fillText('torn', 30, 374);
-              context.fillText('lora', 30, 424);
+              context.fillText('Morgenfugl',120, 24);
+              context.fillText('Nattugle', 410, 24);
+              context.fillText('Jobb med det sammen', 60, 74);
+              context.fillText('Gå for seg selv og tenke', 410, 74);
+              context.fillText('Trenger en forklaring', 65, 124);
+              context.fillText('Direkte på sak', 410, 124);
+              context.fillText('Trenger å snakke om det', 45, 174);
+              context.fillText('Vil gå videre', 410, 174);
+              context.fillText('Snakke', 140, 224);
+              context.fillText('Tenke',410, 224);
+              context.fillText('Planlegge tid til å snakke', 40, 274);
+              context.fillText('Avbryt når du trenger meg', 410, 274);
+              context.fillText('Video Chat', 115, 324);
+              context.fillText('Tekst', 410, 324);
+              context.fillText('09-17', 145, 374);
+              context.fillText('Når som helst', 410, 374);
+              context.fillText('Ledertype', 125, 424);
+              context.fillText('Arbeidertype', 410, 424);
 
               context.beginPath();
-              context.moveTo(70,20);
-              context.lineTo(270,20);
+              context.moveTo(200,20);
+              context.lineTo(400,20);
 
               //context.beginPath();
-              context.moveTo(70,70);
-              context.lineTo(270,70);
+              context.moveTo(200,70);
+              context.lineTo(400,70);
 
-              context.moveTo(70,120);
-              context.lineTo(270,120);
+              context.moveTo(200,120);
+              context.lineTo(400,120);
 
-              context.moveTo(70,170);
-              context.lineTo(270,170);
+              context.moveTo(200,170);
+              context.lineTo(400,170);
 
-              context.moveTo(70,220);
-              context.lineTo(270,220);
+              context.moveTo(200,220);
+              context.lineTo(400,220);
 
-              context.moveTo(70,270);
-              context.lineTo(270,270);
+              context.moveTo(200,270);
+              context.lineTo(400,270);
 
-              context.moveTo(70,320);
-              context.lineTo(270,320);
+              context.moveTo(200,320);
+              context.lineTo(400,320);
 
-              context.moveTo(70,370);
-              context.lineTo(270,370);
+              context.moveTo(200,370);
+              context.lineTo(400,370);
 
-              context.moveTo(70,420);
-              context.lineTo(270,420);
+              context.moveTo(200,420);
+              context.lineTo(400,420);
 
               context.stroke();
 
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -186,7 +195,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -197,7 +206,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -209,7 +218,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -220,7 +229,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -231,7 +240,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -242,7 +251,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -253,7 +262,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -264,7 +273,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
@@ -283,7 +292,7 @@
               console.log(data);
               document.querySelector("#svar2").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -295,7 +304,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -306,7 +315,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -317,7 +326,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -328,7 +337,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -339,7 +348,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -350,7 +359,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -361,7 +370,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -372,7 +381,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
@@ -391,7 +400,7 @@
               console.log(data);
               document.querySelector("#svar3").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -403,7 +412,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -414,7 +423,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -425,7 +434,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -436,7 +445,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -447,7 +456,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -458,7 +467,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -469,7 +478,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -480,7 +489,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
@@ -499,7 +508,7 @@
               console.log(data);
               document.querySelector("#svar4").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -511,7 +520,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -522,7 +531,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -533,7 +542,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -544,7 +553,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -555,7 +564,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -566,7 +575,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -577,7 +586,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -588,7 +597,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
@@ -607,7 +616,7 @@
               console.log(data);
               document.querySelector("#svar5").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -619,7 +628,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -630,7 +639,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -641,7 +650,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -652,7 +661,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -663,7 +672,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -674,7 +683,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -685,7 +694,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -696,7 +705,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
@@ -715,7 +724,7 @@
               console.log(data);
               document.querySelector("#svar6").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  " ;
 
-              var X = 70 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10);
               var Y = 20;
               var R = 5;
               context.beginPath();
@@ -727,7 +736,7 @@
               context.stroke();
               //context.closePath();
 
-              var X = 70 + parseInt(2*data.cora, 10);
+              var X = 200 + parseInt(2*data.cora, 10);
               var Y = 70;
               var R = 5;
               context.beginPath();
@@ -738,7 +747,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.ford, 10);
+              var X = 200 + parseInt(2*data.ford, 10);
               var Y = 120;
               var R = 5;
               context.beginPath();
@@ -749,7 +758,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sorv, 10);
+              var X = 200 + parseInt(2*data.sorv, 10);
               var Y = 170;
               var R = 5;
               context.beginPath();
@@ -760,7 +769,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sort, 10);
+              var X = 200 + parseInt(2*data.sort, 10);
               var Y = 220;
               var R = 5;
               context.beginPath();
@@ -771,7 +780,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.sora, 10);
+              var X = 200 + parseInt(2*data.sora, 10);
               var Y = 270;
               var R = 5;
               context.beginPath();
@@ -782,7 +791,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.vort, 10);
+              var X = 200 + parseInt(2*data.vort, 10);
               var Y = 320;
               var R = 5;
               context.beginPath();
@@ -793,7 +802,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.torn, 10);
+              var X = 200 + parseInt(2*data.torn, 10);
               var Y = 370;
               var R = 5;
               context.beginPath();
@@ -804,7 +813,7 @@
               context.strokeStyle = "black";
               context.stroke();
 
-              var X = 70 + parseInt(2*data.lora, 10);
+              var X = 200 + parseInt(2*data.lora, 10);
               var Y = 420;
               var R = 5;
               context.beginPath();
