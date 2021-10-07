@@ -1,6 +1,6 @@
 Alle har bidratt tilstrekkelig til arbeidet med oppgaven. \
 Alle kilder vi har brukt er referert til. \
-Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden. \
+Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden. 
 
 
 
