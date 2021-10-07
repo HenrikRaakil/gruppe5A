@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c256e0a-9051-47a1-8475-36d97974e31d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hwr-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/hwr-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -64,6 +65,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Forandring i Canvas element, width 600 pixels. Forandring av Script posistion context.filltext og VAR Y" />
     <MESSAGE value="Forandring av markering/poisjon av Data Cora til Henrik &amp; Sander, og flyttet den over slik at de er markert over hverandre" />
@@ -75,7 +79,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/hwr-report.html</url>
           <line>623</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
