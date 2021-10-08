@@ -8,18 +8,22 @@
   <title>How We Roll</title>
   <style>
     html{
-      background-color: cadetblue;
+      background-color: cadetblue; /*bakgrunnsfarge*/
     }
 
     body {
       margin: 0;
     }
 
-    a { text-decoration: none;
+    a {
+      text-decoration: none;
       color: black;
       transition: all 0.3s ease 0s;
     }
-    a:hover{color:magenta;}
+
+    a:hover {
+      color:magenta; /*bytter farge på hover på lenkene*/
+    }
 
     /* Navbar */
     .navbarliste {
@@ -57,6 +61,15 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
+    .HWR-button { /*style til knappen*/
+      background-color: #ffffff;
+      font-size: 16px;
+      color: black;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+    }
   </style>
   
   <!--
@@ -75,9 +88,9 @@
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
 <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
 <header>
-  <nav class="navbar">
+  <nav class="navbar"> <!--lager en navigasjonsbar-->
     <ul class="navbarliste">
-      <li><a class="navbar-a" href="index.html">Forside</a></li>
+      <li><a class="navbar-a" href="index.html">Forside</a></li><!--lenker til andre sider, åpner i samme fane-->
       <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
       <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
       <li><a class="navbar-a" href="IS-104.html">IS-104</a></li>
@@ -86,12 +99,12 @@
 </header>
 <h1 class="overskrift-index">Kartlegging av gruppemedlemmer </h1>
 
-<form style="text-align: center">
+<form style="text-align: center"> <!-- form -->
   <p><label for="navn">Navn</label>
-    <input type="text" name="navn" id="navn" /></p>
+    <input type="text" name="navn" id="navn" /></p> <!--inputfelt tekst-->
 
   <p><label for="farge">Farge</label>
-    <input onchange="velgFarge(this)" type="color" name="farge" id="farge"/></p>
+    <input onchange="velgFarge(this)" type="color" name="farge" id="farge"/></p> <!--velger farge som lagres som hex-->
 
   <p>HowWeRoll-parametre:</p>
 
@@ -110,49 +123,49 @@
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- ford - forklaring or direkte på sak -->
     <label for="ford">Trenger en forklaring</label>
     <input type="range" id="ford" name="ford" value="50">
     <label for="ford">Direkte på sak</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- sorv - snakke om det or gå videre -->
     <label for="sorv">Trenger å snakke om det</label>
     <input type="range" id="sorv" name="sorv" value="50">
     <label for="sorv">Vil gå videre</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- sort - snakke or tenke -->
     <label for="sort">Snakke</label>
     <input type="range" id="sort" name="sort" value="50">
     <label for="sort">Tenke</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- sora - planlegge å snakke or avbryt -->
     <label for="sora">Planlegge tid til å snakke</label>
     <input type="range" id="sora" name="sora" value="50">
     <label for="cora">Avbryt når du trenger meg</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- vort - video chat or tekst -->
     <label for="vort">Video chat</label>
     <input type="range" id="vort" name="vort" value="50">
     <label for="vort">Tekst</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- torn - 09-17 or når som helst -->
     <label for="torn">09-17</label>
     <input type="range" id="torn" name="torn" value="50">
     <label for="torn">Når som helst</label>
   </p>
 
   <p>
-    <!-- cora - cooperate or alone -->
+    <!-- lora - ledertype or arbeidertype -->
     <label for="lora">Ledertype</label>
     <input type="range" id="lora" name="lora" value="50">
     <label for="lora">Arbeidertype</label>
@@ -171,22 +184,19 @@
     </label>
   </p>
 
-  <button type="submit">Gjør noe</button>
+  <button type="submit" class="HWR-button">Send</button>
 </form>
 
-<div class="results">
- <!-- <h2 style="text-align: center">Form Data</h2>-->
-  <pre></pre>
-</div>
+
 
 <script>
 
 
   function velgFarge (element) {
     document.body.style = element.value
-  }
+  } /*funksjon som lar bruker velge farge*/
 
-
+/*kode fra Janis */
   // Example POST method implementation using fetch:
   async function postData(url = '', data = {}) {
     // Default options are marked with *
@@ -219,7 +229,6 @@
   }
   const form = document.querySelector('form');
   form.addEventListener('submit', handleSubmit);
-
 
 
 </script>
