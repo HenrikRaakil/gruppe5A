@@ -8,23 +8,27 @@
     <title>HWR report</title>
     <style>
         html{
-            background-color: cadetblue;
+            background-color: cadetblue; /*bakgrunnsfarge*/
         }
 
         body{
             margin: 0;
-            text-align: center;
+            text-align: center; /*midtsiller teksten*/
         }
 
-        a { text-decoration: none;
+        a {
+            text-decoration: none;
             color: black;
             transition: all 0.3s ease 0s;
         }
-        a:hover{color:magenta;}
+
+        a:hover{
+            color:magenta;
+        }
 
         /* Navbar */
         .navbarliste {
-            list-style: none;
+            list-style: none; /*tar bort listetegnene*/
             margin: 0;
             box-sizing: border-box;
             display: flex;
@@ -53,43 +57,72 @@
             cursor: default;
             font-family: arial;
             text-align: center;
-            font-size: 50px;
+            font-size: 72px;
             background: linear-gradient(yellow, orange);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        /* Svar farger */
-        #svar1 { color: #ffe11f;font-weight: bolder; }
-        #svar2 { color: #90d382;font-weight: bolder; }
-        #svar3 { color: #ff4d00;font-weight: bolder; }
-        #svar4 { color: #00ffd5; font-weight: bolder; }
-        #svar5 { color: #be38f3; font-weight: bolder; }
-        #svar6 { color: #000000; font-weight: bolder; }
+
+        #svar1 {
+            color: #ffe11f;
+            font-weight: bolder;
+        }
+        #svar2 {
+            color: #90d382;
+            font-weight: bolder;
+        }
+        #svar3 {
+            color: #ff4d00;
+            font-weight: bolder;
+        }
+        #svar4 {
+            color: #00ffd5;
+            font-weight: bolder;
+        }
+        #svar5 {
+            color: #be38f3;
+            font-weight: bolder;
+        }
+        #svar6 {
+            color: #000000;
+            font-weight: bolder;
+            padding-bottom: 30px;
+        }
+
+        .svartekst {
+            padding: 5px;
+        }
+
     </style>
+
 </head>
-<body>
-<header>
-    <nav class="navbar">
-        <ul class="navbarliste">
-            <li><a class="navbar-a" href="index.html">Forside</a></li>
-            <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
-            <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
-            <li><a class="navbar-a" href="IS-104.html">IS-104</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav class="navbar"> <!--lager en navigasjonsbar-->
+            <ul class="navbarliste">
+                <li><a class="navbar-a" href="index.html">Forside</a></li> <!--lenker til andre sider, åpner i samme fane-->
+                <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
+                <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
+                <li><a class="navbar-a" href="IS-104.html">IS-104</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
 <h1 class="overskrift-index">Kartlegging av gruppemedlemmer </h1>
 
-    <div id="svar1"></div>
-    <div id="svar2"></div>
-    <div id="svar3"></div>
-    <div id="svar4"></div>
-    <div id="svar5"></div>
-    <div id="svar6"></div>
+
+<body>
+
+    <div id="svar1" class="svartekst"></div> <!-- her havner teksten fra innerText i script-->
+    <div id="svar2" class="svartekst"></div>
+    <div id="svar3"class="svartekst"></div>
+    <div id="svar4"class="svartekst"></div>
+    <div id="svar5"class="svartekst"></div>
+    <div id="svar6"class="svartekst"></div>
 
 <canvas id="report" height=500 width=600>
 
-</canvas>
+</canvas> <!--alt med context havner her-->
 
 
   <script>
@@ -102,11 +135,13 @@
       fetch("https://bacit.info/hwr/20211006082413-f7f6d6891495d094537f2e20aa11706a.json", {cache: 'no-cache'})
           .then(response => response.json())
           .then(data => {
-              console.log(data);
+              console.log(data); /*dataene i consollen*/
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
+              /*innerText havner i div-elementet med id svar1*/
 
-              context.font = '14px serif';
-              context.fillText('Morgenfugl',120, 24);
+              context.font = '14px serif'; /*font og skriftsstørrelse*/
+              context.fillStyle = "rgb(0,0,0)"; // Lagt til for endring av farge tekst
+              context.fillText('Morgenfugl',120, 24); /*tekst og definerer hvor på i canvas-elementet den skal vises*/
               context.fillText('Nattugle', 410, 24);
               context.fillText('Jobb med det sammen', 60, 74);
               context.fillText('Gå for seg selv og tenke', 410, 74);
@@ -127,7 +162,7 @@
 
               context.beginPath();
               context.moveTo(200,20);
-              context.lineTo(400,20);
+              context.lineTo(400,20); /*linje fra og til */
 
               //context.beginPath();
               context.moveTo(200,70);
@@ -157,16 +192,16 @@
               context.stroke();
 
 
-              var X = 200 + parseInt(2*data.dorn, 10);
+              var X = 200 + parseInt(2*data.dorn, 10); /*ganger med to fordi linjen er dobbelt på lang som den originale koden*/
               var Y = 20;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
-              context.fillStyle = '#ffe11f';
+              context.fillStyle = '#ffe11f'; /*farge som personen selv har valgt, prikkene*/
               context.fill();
               context.lineWidth = 1;
-              context.strokeStyle = "black";
-              context.stroke();
+              context.strokeStyle = "black"; /*svart outline*/
+              context.stroke(); /*avslutter "tegningen"*/
               //context.closePath();
 
               var X = 200 + parseInt(2*data.cora, 10);
@@ -387,7 +422,7 @@
               //context.closePath();
 
               var X = 200 + parseInt(2*data.cora, 10);
-              var Y = 70;
+              var Y = 60;
               var R = 5;
               context.beginPath();
               context.arc(X, Y, R, 0, 2*Math.PI, false);
