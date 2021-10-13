@@ -1,8 +1,8 @@
 # Vårt arbeid med How We Roll <br>
 
-Alle har bidratt tilstrekkelig til arbeidet med oppgaven.
-Alle kilder vi har brukt er referert til.
-Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden.
+Alle har bidratt tilstrekkelig til arbeidet med oppgaven. <br>
+Alle kilder vi har brukt er referert til. <br>
+Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden. <br>
 
 Når vi startet med dette prosjektet var det nok mye usikkerhet blant de fleste i gruppen.<br>
 Noen av oss hadde erfaring med IT og programmering fra før av, noen av oss hadde ikke det. <br>
