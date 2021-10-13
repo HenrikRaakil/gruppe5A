@@ -127,9 +127,61 @@
 
   <script>
 
-
       var canvas = document.getElementById('report');
       var context = canvas.getContext('2d');
+
+
+      context.font = '14px serif'; /*font og skriftsstørrelse*/
+      context.fillStyle = "rgb(0,0,0)"; // Lagt til for endring av farge tekst
+      context.fillText('Morgenfugl',120, 24); /*tekst og definerer hvor på i canvas-elementet den skal vises*/
+      context.fillText('Nattugle', 410, 24);
+      context.fillText('Jobb med det sammen', 60, 74);
+      context.fillText('Gå for seg selv og tenke', 410, 74);
+      context.fillText('Trenger en forklaring', 65, 124);
+      context.fillText('Direkte på sak', 410, 124);
+      context.fillText('Trenger å snakke om det', 45, 174);
+      context.fillText('Vil gå videre', 410, 174);
+      context.fillText('Snakke', 140, 224);
+      context.fillText('Tenke',410, 224);
+      context.fillText('Planlegge tid til å snakke', 40, 274);
+      context.fillText('Avbryt når du trenger meg', 410, 274);
+      context.fillText('Video Chat', 115, 324);
+      context.fillText('Tekst', 410, 324);
+      context.fillText('09-17', 145, 374);
+      context.fillText('Når som helst', 410, 374);
+      context.fillText('Ledertype', 125, 424);
+      context.fillText('Arbeidertype', 410, 424);
+
+      context.beginPath();
+      context.moveTo(200,20);
+      context.lineTo(400,20); /*linje fra og til */
+
+      //context.beginPath();
+      context.moveTo(200,70);
+      context.lineTo(400,70);
+
+      context.moveTo(200,120);
+      context.lineTo(400,120);
+
+      context.moveTo(200,170);
+      context.lineTo(400,170);
+
+      context.moveTo(200,220);
+      context.lineTo(400,220);
+
+      context.moveTo(200,270);
+      context.lineTo(400,270);
+
+      context.moveTo(200,320);
+      context.lineTo(400,320);
+
+      context.moveTo(200,370);
+      context.lineTo(400,370);
+
+      context.moveTo(200,420);
+      context.lineTo(400,420);
+
+      context.stroke();
 
 
       fetch("https://bacit.info/hwr/20211006082413-f7f6d6891495d094537f2e20aa11706a.json", {cache: 'no-cache'})
@@ -138,58 +190,6 @@
               console.log(data); /*dataene i consollen*/
               document.querySelector("#svar1").innerText += data.navn + " prefers to work with " + data.numb + " person/people. Their chosen colour is " + data.farge + "  ";
               /*innerText havner i div-elementet med id svar1*/
-
-              context.font = '14px serif'; /*font og skriftsstørrelse*/
-              context.fillStyle = "rgb(0,0,0)"; // Lagt til for endring av farge tekst
-              context.fillText('Morgenfugl',120, 24); /*tekst og definerer hvor på i canvas-elementet den skal vises*/
-              context.fillText('Nattugle', 410, 24);
-              context.fillText('Jobb med det sammen', 60, 74);
-              context.fillText('Gå for seg selv og tenke', 410, 74);
-              context.fillText('Trenger en forklaring', 65, 124);
-              context.fillText('Direkte på sak', 410, 124);
-              context.fillText('Trenger å snakke om det', 45, 174);
-              context.fillText('Vil gå videre', 410, 174);
-              context.fillText('Snakke', 140, 224);
-              context.fillText('Tenke',410, 224);
-              context.fillText('Planlegge tid til å snakke', 40, 274);
-              context.fillText('Avbryt når du trenger meg', 410, 274);
-              context.fillText('Video Chat', 115, 324);
-              context.fillText('Tekst', 410, 324);
-              context.fillText('09-17', 145, 374);
-              context.fillText('Når som helst', 410, 374);
-              context.fillText('Ledertype', 125, 424);
-              context.fillText('Arbeidertype', 410, 424);
-
-              context.beginPath();
-              context.moveTo(200,20);
-              context.lineTo(400,20); /*linje fra og til */
-
-              //context.beginPath();
-              context.moveTo(200,70);
-              context.lineTo(400,70);
-
-              context.moveTo(200,120);
-              context.lineTo(400,120);
-
-              context.moveTo(200,170);
-              context.lineTo(400,170);
-
-              context.moveTo(200,220);
-              context.lineTo(400,220);
-
-              context.moveTo(200,270);
-              context.lineTo(400,270);
-
-              context.moveTo(200,320);
-              context.lineTo(400,320);
-
-              context.moveTo(200,370);
-              context.lineTo(400,370);
-
-              context.moveTo(200,420);
-              context.lineTo(400,420);
-
-              context.stroke();
 
 
               var X = 200 + parseInt(2*data.dorn, 10); /*ganger med to fordi linjen er dobbelt på lang som den originale koden*/
