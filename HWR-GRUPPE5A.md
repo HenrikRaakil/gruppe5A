@@ -1,11 +1,9 @@
+# Vårt arbeid med How We Roll <br>
+
 Alle har bidratt tilstrekkelig til arbeidet med oppgaven. \
 Alle kilder vi har brukt er referert til. \
-Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden. 
+Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden.
 
-
-
-
-# Vårt arbeid med How We Roll <br>
 Når vi startet med dette prosjektet var det nok mye usikkerhet blant de fleste i gruppen.<br>
 Noen av oss hadde erfaring med IT og programmering fra før av, noen av oss hadde ikke det. <br>
 Da vi begynte å jobbe med den første delen av oppgaven, visittkortene, var vi usikre på <br> 
@@ -37,8 +35,6 @@ Måten vi arbeidet på for at alle skulle bli kjent med koding var mye gjennom p
 og ved å sitte mye sammen. Vi lot de som var ukjente med det skrive koden/følge med, og de som kan det <br> 
 forklarte hva som skjedde på nettsiden med endringene vi gjorde. 
 
-[Link til hovedrepository](https://github.com/HenrikRaakil/gruppe5A)\
-[Link til vår hjemmeside](https://henrikraakil.github.io/gruppe5A/)
 
 
 
