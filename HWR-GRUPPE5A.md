@@ -1,7 +1,7 @@
 # Vårt arbeid med How We Roll <br>
 
-Alle har bidratt tilstrekkelig til arbeidet med oppgaven. \
-Alle kilder vi har brukt er referert til. \
+Alle har bidratt tilstrekkelig til arbeidet med oppgaven.
+Alle kilder vi har brukt er referert til.
 Vi tillatere dere å bruke vårt arbeid i undervisning i fremtiden.
 
 Når vi startet med dette prosjektet var det nok mye usikkerhet blant de fleste i gruppen.<br>
