@@ -35,6 +35,9 @@ Måten vi arbeidet på for at alle skulle bli kjent med koding var mye gjennom p
 og ved å sitte mye sammen. Vi lot de som var ukjente med det skrive koden/følge med, og de som kan det <br> 
 forklarte hva som skjedde på nettsiden med endringene vi gjorde. 
 
+Vårt repository: https://github.com/HenrikRaakil/gruppe5A
+Vår nettside: https://henrikraakil.github.io/gruppe5A/
+
 
 
 
