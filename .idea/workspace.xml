@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c256e0a-9051-47a1-8475-36d97974e31d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Active-frontpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Active-frontpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +45,7 @@
       <updated>1633512419321</updated>
       <workItem from="1633512421343" duration="49000" />
       <workItem from="1633512480231" duration="7521000" />
+      <workItem from="1634219786967" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="Forandring i Canvas element, width 600 pixels. Forandring av Script posistion context.filltext og VAR Y">
       <created>1633517607303</created>
