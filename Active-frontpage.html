@@ -6,21 +6,42 @@
   <title>Activity - Create Activity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .phone {
-      height: 812px; width: 375px; background-color: darkred;
-    }
+  /* Vil gjelde hele siden. */
+  * {padding: 0;margin: 0;}
+  body {display: flex;justify-content: center;align-items: center;}
+  .phone {height: 812px; width: 375px; background-color: darkred;}
+  .logo {font-family: Impact; color: #9caeaf; text-align: right; padding-right: 15px}
+
+  .activity-list {
+  margin: 30px;
+  border: solid deepskyblue 5px;
+  background-color: skyblue;
+  border-radius: 15px;
+  }
+
+  p, h1 {
+    padding-left: 15px;
+  }
   </style>
 </head>
-
 <body>
 <div class="phone">
-
+  <h1 class="logo">Active</h1>
+  <div class="activity-list">
+    <h1>Joggetur</h1>
+    <p><img src="images/icons/clock.svg" alt="Time" width="16"> 13.00</p>
+    <p><img src="images/icons/marker.svg" alt="Location" width="16"> Universitet i Agder, hovedinngang</p>
+    <p> <img src="images/icons/people.svg" alt="People" width="16"> 24</p>
+  </div>
+  <div class="activity-list">
+    <ul>
+      <li><h1>Joggetur</h1><p><img src="images/icons/clock.svg" alt="Time" width="16"> 13.00</p>
+        <p><img src="images/icons/marker.svg" alt="Location" width="16"> Universitet i Agder, hovedinngang</p>
+        <p> <img src="images/icons/people.svg" alt="People" width="16"> 24</p></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
 </div>
-
 </body>
 </html>
