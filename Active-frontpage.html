@@ -20,37 +20,42 @@
   .phone {
     height: 812px;
     width: 375px;
-    background-color: darkred;
+    background-color: #7C151D;
   }
 
   /* Logo øverst til høyre */
   .logo {
     font-family: Impact;
-    color: #9caeaf;
+    color: #7C151D;
     text-align: right;
+
     padding-right: 15px;
+    padding-bottom: 5px;
+    background-color: #A6373F;
   }
 
   .activity-list {
   margin: 30px;
-  border: solid deepskyblue 5px;
-  background-color: skyblue;
+  border: solid #A6373F 5px;
+  background-color: #A6373F;
   border-radius: 15px;
+  }
+
+  .activity-list-u {
+    margin: 5px;
+    border: solid #CF6870 5px;
+    background-color: #CF6870;
+    border-radius: 15px;
   }
 
   p, h1 {
     padding-left: 15px;
+    font-family: "Segoe UI Symbol";
   }
 
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .phone {
-      height: 812px; width: 375px; background-color: darkred;
-    }
-
+  h1 {
+    font-size: 27px;
+  }
 
     /*https://www.w3schools.com/howto/howto_css_bottom_nav.asp*/
     .navbar {
@@ -72,21 +77,42 @@
       text-decoration: none;
       font-size: 17px;
     }
-
   </style>
 </head>
 <body>
 <div class="phone">
   <h1 class="logo">Active</h1>
+
+  <!-- Activity list -->
   <div class="activity-list">
     <h1>Joggetur</h1>
     <p><img src="images/icons/clock.svg" alt="Time" width="16"> 13.00</p>
     <p><img src="images/icons/marker.svg" alt="Location" width="16"> Universitet i Agder, hovedinngang</p>
-    <p> <img src="images/icons/people.svg" alt="People" width="16"> 24</p>
+    <p> <img src="images/icons/people.svg" alt="People" width="16"> 22 / 24</p>
   </div>
-  <div class="activity-list-2"></div>
+  <div class="activity-list">
+    <div class="activity-list-u">
+      <h1>Fotball</h1>
+      <p><img src="images/icons/clock.svg" alt="Time" width="16"> 17.00</p>
+      <p><img src="images/icons/marker.svg" alt="Location" width="16"> Sør Arena, Lunde</p>
+      <p> <img src="images/icons/people.svg" alt="People" width="16"> 10 / 10</p>
+    </div>
+    <div class="activity-list-u">
+      <h1>Gruppetrening</h1>
+      <p><img src="images/icons/clock.svg" alt="Time" width="16"> 12.00</p>
+      <p><img src="images/icons/marker.svg" alt="Location" width="16"> Spicheren Treningssenter</p>
+      <p> <img src="images/icons/people.svg" alt="People" width="16"> 5 / 8</p>
+    </div>
+    <div class="activity-list-u">
+      <h1>Strandvolleyball</h1>
+      <p><img src="images/icons/clock.svg" alt="Time" width="16"> 15.30</p>
+      <p><img src="images/icons/marker.svg" alt="Location" width="16"> Volleyballbanen, UiA</p>
+      <p> <img src="images/icons/people.svg" alt="People" width="16"> 5 / 6</p>
+    </div>
+  </div>
 
 
+  <!-- Navigation bar -->
   <div class="navbar">
     <a href="#"><i class="fas fa-search"></i> </a>
     <a href="Active-Create-Activity.html"><i class="fas fa-plus"></i> </a>
