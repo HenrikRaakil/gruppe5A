@@ -9,15 +9,18 @@
     <style>
         /* Vil gjelde hele siden. */
         * {padding: 0;margin: 0;}
-        body {display: flex;justify-content: center;align-items: center;}
+        body {display: flex;justify-content: center;align-items: center; text-align: center;}
         .phone {height: 812px; width: 375px; background-color: darkred;}
+
+        form {
+        }
 
         /*https://www.w3schools.com/howto/howto_css_bottom_nav.asp*/
         .navbar {
             overflow: hidden;
             background-color: black;
             position: relative;
-            margin-top: 764px;
+            margin-top: 510px;
             width: 100%;
             align-content: center;
             align-items: center;
@@ -39,7 +42,34 @@
 <body>
 <div class="phone">
 
+<form> <!-- form -->
+    <p><label for="tittel">Tittel</label> <br>
+        <input type="text" name="tittel" id="tittel" /></p> <!--inputfelt tekst-->
 
+    <p><label for="Date">Date</label> <br>
+        <input type="date" name="Date" id="Date" /></p> <!--inputfelt tekst-->
+
+    <p><label for="Time">Time</label> <br>
+        <input type="time" name="Time" id="Time" /></p> <!--inputfelt tekst-->
+
+    <p><label for="loc">Location</label> <br>
+        <input type="text" name="loc" id="loc" /></p> <!--inputfelt tekst-->
+
+    <p><label for="MaxPar">Max Particpipants</label> <br>
+        <input type="number" name="MaxPar" id="MaxPar" /></p> <!--inputfelt tekst-->
+
+    <p>Skilllevel</p>
+        <label for="Beg">Beginner</label>
+        <input type="radio" id="Beg" name="fav_language" value="Beg">
+        <label for="Int">Intermediate</label>
+        <input type="radio" id="Int" name="fav_language" value="Int">
+        <label for="Exp">Expert</label>
+        <input type="radio" id="Exp" name="fav_language" value="Exp"> <br>
+
+    <button type="submit" class="Create-Act-button">Create Activity</button>
+</form>
+
+        <!--inputfelt tekst-->
 
     <div class="navbar">
         <a href="#"><i class="fas fa-search"></i> </a>
