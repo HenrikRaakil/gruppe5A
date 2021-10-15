@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c256e0a-9051-47a1-8475-36d97974e31d" name="Changes" comment="">
+    <list default="true" id="0c256e0a-9051-47a1-8475-36d97974e31d" name="Changes" comment="laget nav-bar og lagt til ikoner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Active-Create-Activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/Active-Create-Activity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Active-frontpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Active-frontpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +14,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -61,19 +61,35 @@
       <option name="project" value="LOCAL" />
       <updated>1633518889102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="laget nav-bar og lagt til ikoner">
+      <created>1634286172984</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1634286172984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Forandring i Canvas element, width 600 pixels. Forandring av Script posistion context.filltext og VAR Y" />
     <MESSAGE value="Forandring av markering/poisjon av Data Cora til Henrik &amp; Sander, og flyttet den over slik at de er markert over hverandre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forandring av markering/poisjon av Data Cora til Henrik &amp; Sander, og flyttet den over slik at de er markert over hverandre" />
+    <MESSAGE value="laget nav-bar og lagt til ikoner" />
+    <option name="LAST_COMMIT_MESSAGE" value="laget nav-bar og lagt til ikoner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
