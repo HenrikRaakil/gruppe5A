@@ -12,15 +12,26 @@
         body {display: flex;justify-content: center;align-items: center; text-align: center;}
         .phone {height: 812px; width: 375px; background-color: #242037;}
 
-        form {
+        p {color: white; font-size: 23px}
+
+        .logo {
+            font-family: Impact;
+            color: #242037;
+            text-align: right;
+            font-size: 27px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            background-color: #A6373F;
         }
+
+        input {border-radius: 50px; font-size: 22px;}
 
         /*https://www.w3schools.com/howto/howto_css_bottom_nav.asp*/
         .navbar {
             overflow: hidden;
             background-color: #A6373F;
             position: relative;
-            margin-top: 510px;
+            margin-top: 300px;
             width: 100%;
             align-content: center;
             align-items: center;
@@ -46,7 +57,8 @@
 </head>
 <body>
 <div class="phone">
-
+    <h1 class="logo">Active</h1>
+<br><br><br><br><br>
 <form> <!-- form -->
     <p><label for="tittel">Tittel</label> <br>
         <input type="text" name="tittel" id="tittel" /></p> <!--inputfelt tekst-->
@@ -60,17 +72,16 @@
     <p><label for="loc">Location</label> <br>
         <input type="text" name="loc" id="loc" /></p> <!--inputfelt tekst-->
 
-    <p><label for="MaxPar">Max Particpipants</label> <br>
+    <p><label for="MaxPar">Max Participants</label> <br>
         <input type="number" name="MaxPar" id="MaxPar" /></p> <!--inputfelt tekst-->
-
-    <p>Skilllevel</p>
-        <label for="Beg">Beginner</label>
+    <p>Skill level</p>
+        <label for="Beg" style="color: white">Beginner</label>
         <input type="radio" id="Beg" name="fav_language" value="Beg">
-        <label for="Int">Intermediate</label>
+        <label for="Int" style="color: white">Intermediate</label>
         <input type="radio" id="Int" name="fav_language" value="Int">
-        <label for="Exp">Expert</label>
+        <label for="Exp" style="color: white">Expert</label>
         <input type="radio" id="Exp" name="fav_language" value="Exp"> <br>
-
+<br>
     <button type="submit" class="Create-Act-button">Create Activity</button>
 </form>
 
